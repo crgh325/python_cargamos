@@ -109,7 +109,7 @@ total_pago = 0
 while True:
     producto = input("Ingrese el producto a comprar: ")
     precio = int(input("Ingrese el precio del producto: "))
-    cantidad = int(input("ingrese la cantidad a comprar"))
+    cantidad = int(input("ingrese la cantidad a comprar: "))
     acumulador_pago = cantidad * precio
     total_pago = total_pago + acumulador_pago
     msj = input("¿Desea seguir comprando? ( S / N )")
